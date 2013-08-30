@@ -1,6 +1,6 @@
 You should use [stackoverflow](http://stackoverflow.com/) for support.
 
-#### Missing some icons
+#### Checklist
 1. You don't have an old version of Font Awesome installed on your system (since it has priority);
 2. Both your `font-awesome.css` file and your `/fonts` folder are up to date (if you are serving Font Awesome from your own server);
 3. Your css link is up to date (if you are using Font Awesome from a CDN) [See https://github.com/FortAwesome/Font-Awesome/issues/1490];
