@@ -1,8 +1,9 @@
-For this kind of support (setup errors), you should use stackoverflow.
+You should use [stackoverflow](http://stackoverflow.com/) for support.
 
 Please check the following things:
 
-1. You don't have an old version of fontawesome installed on your system (it has priority)
+1. You don't have an old version of Font Awesome installed on your system (it has priority)
 2. Both your css file and your fonts folder are up to date (if you are serving fontawesome from your own server)
-3. Your css link is up to date (if you are using fontawesome from a cdn) [See https://github.com/FortAwesome/Font-Awesome/issues/1490]
-4. You are not using plugins that load an older/modified version of fontawesome [See https://github.com/FortAwesome/Font-Awesome/issues/1546]
+3. Your css link is up to date (if you are using Font Awesome from a CDN) [See https://github.com/FortAwesome/Font-Awesome/issues/1490]
+4. You are not using plugins that load an older/modified version of Font Awesome [See https://github.com/FortAwesome/Font-Awesome/issues/1546]
+5. You are using proper [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates
