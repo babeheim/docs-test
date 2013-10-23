@@ -6,7 +6,7 @@
 5. You are using valid [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates.
 
 
-#### Phonegap / Android
+#### Phonegap / Android (icons in Heading tags)
 Icons doesn't show up in tags with `text-rendering: optimizeLegibility`. This is the fix:
 ```css
 [class^="icon-"],
