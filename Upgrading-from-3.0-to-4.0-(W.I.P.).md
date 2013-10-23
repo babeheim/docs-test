@@ -1,9 +1,7 @@
-Work in Progress
-
-### New Syntax
+## New Syntax
 * `icon-` -> `fa fa-`
 
-### New Names
+## New Names
 * `ban-circle` -> `ban`
 * `bar-chart` -> `bar-chart-o`
 * `beaker` -> `flask`
