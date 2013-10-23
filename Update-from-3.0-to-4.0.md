@@ -1,7 +1,7 @@
 Work in Progress
 
 ### New Syntax
-`icon-` -> `fa fa-`
+* `icon-` -> `fa fa-`
 
 ### New Names
 * `ban-circle` -> `ban`
