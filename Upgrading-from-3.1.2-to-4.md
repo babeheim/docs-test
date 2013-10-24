@@ -1,7 +1,7 @@
-## New Syntax
+## New default syntax
 * `icon-` -> `fa fa-`
 
-## New Names
+## New icon names
 * `ban-circle` -> `ban`
 * `bar-chart` -> `bar-chart-o`
 * `beaker` -> `flask`
