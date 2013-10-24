@@ -1,7 +1,9 @@
 ### New default syntax
 * `icon-*` -> `fa fa-*` (**NOTE**: `fa` base class is only needed by icons)
-* `icons-ul` -> `fa-ul` 
+* `icon-fixed-width` -> `fa-fw` 
 * `icon-large` -> `fa-lg`
+* `icons-ul` -> `fa-ul` 
+
 
 ### New icon names
 * `ban-circle` -> `ban`
