@@ -1,5 +1,7 @@
 ### New default syntax
-* `icon-` -> `fa fa-`
+* `icon-*` -> `fa fa-*` (**NOTE**: `fa` base class is only needed by icons)
+* `icons-ul` -> `fa-ul` 
+* `icon-large` -> `fa-lg`
 
 ### New icon names
 * `ban-circle` -> `ban`
