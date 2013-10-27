@@ -66,6 +66,7 @@
 * `hand-left` -> `hand-o-left`
 * `hand-right` -> `hand-o-right`
 * `hand-up` -> `hand-o-up`
+* `hdd` -> `hdd-o` **(4.0.1)**
 * `heart-empty` -> `heart-o`
 * `h-sign` -> `h-square`
 * `indent-left` -> `outdent`
