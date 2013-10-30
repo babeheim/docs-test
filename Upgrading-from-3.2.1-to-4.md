@@ -128,6 +128,7 @@
 * `trash` -> `trash-o`
 * `tumblr-sign` -> `tumblr-square`
 * `twitter-sign` -> `twitter-square`
+* `unchecked` -> `square-o`
 * `unlink` -> `chain-broken`
 * `unlock-alt` -> `unlock-o`
 * `upload` -> `arrow-circle-o-up`
