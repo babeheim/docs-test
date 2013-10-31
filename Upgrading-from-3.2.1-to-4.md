@@ -138,4 +138,3 @@
 * `youtube-sign` -> `youtube-square`
 * `zoom-in` -> `search-plus`
 * `zoom-out` -> `search-minus`
-* `beaker` -> `flask`
