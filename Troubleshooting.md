@@ -9,14 +9,14 @@
 #### Phonegap / Android (icons in Heading tags)
 Icons doesn't show up in tags with `text-rendering: optimizeLegibility`. According to your Font Awesome version, please add to your stylesheets:
 ```css
-/* FA 3.2.1 and older */
-[class^="icon-"],
-[class*=" icon-"]  {
+/* FA 4.0.0 and newer */
+.fa {
   text-rendering: auto;
 }
 
-/* FA 4.0.0 and newer */
-.fa {
+/* FA 3.2.1 and older */
+[class^="icon-"],
+[class*=" icon-"]  {
   text-rendering: auto;
 }
 ```
@@ -28,14 +28,14 @@ Icons doesn't show up in tags with `text-rendering: optimizeLegibility`. Accordi
 If you are using `font-variant: small-caps;`, according to your Font Awesome version, please add to your stylesheets:
 
 ```css
-/* FA 3.2.1 and older */
-[class^="icon-"],
-[class*=" icon-"] {
+/* FA 4.0.0 and newer */
+.fa {
   font-variant: normal;
 }
 
-/* FA 4.0.0 and newer */
-.fa {
+/* FA 3.2.1 and older */
+[class^="icon-"],
+[class*=" icon-"] {
   font-variant: normal;
 }
 ```
@@ -47,14 +47,14 @@ If you are using `font-variant: small-caps;`, according to your Font Awesome ver
 According to your Font Awesome version, please add to your stylesheets:
 
 ```css
-/* FA 3.2.1 and older */
-.reveal [class^="icon-"],
-.reveal [class*=" icon-"]  {
+/* FA 4.0.0 and newer */
+.reveal .fa {
   font-family: 'FontAwesome';
 }
 
-/* FA 4.0.0 and newer */
-.reveal .fa {
+/* FA 3.2.1 and older */
+.reveal [class^="icon-"],
+.reveal [class*=" icon-"]  {
   font-family: 'FontAwesome';
 }
 ```
