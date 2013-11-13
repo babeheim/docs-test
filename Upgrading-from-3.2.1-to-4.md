@@ -4,6 +4,7 @@
 * `icon-large` -> `fa-lg`
 * `icons-ul` -> `fa-ul`
 * `icon-li` -> `fa-li`
+* `icon-spin` -> `fa-spin`
 
 
 ### New icon names
