@@ -24,7 +24,7 @@ Icons doesn't show up in tags with `text-rendering: optimizeLegibility`. Accordi
 (more info on [#862](https://github.com/FortAwesome/Font-Awesome/pull/862))
 
 
-#### Small caps
+#### font-variant (Small caps)
 If you are using `font-variant: small-caps;`, according to your Font Awesome version, please add to your stylesheets:
 
 ```css
