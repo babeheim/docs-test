@@ -152,3 +152,28 @@
 * `youtube-sign` -> `youtube-square`
 * `zoom-in` -> `search-plus`
 * `zoom-out` -> `search-minus` 
+
+
+### New default font path
+
+V3.2.1
+<pre><code>
+@font-face {
+  ...
+  src: url('../font/fontawesome-webfont.eot?v=3.2.1');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('../font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+ ...
+}
+</code></pre>
+
+V4
+<pre><code>
+@font-face {
+  ...
+  src: url('../fonts/fontawesome-webfont.eot?v=4.0.3');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  ...
+}
+</code></pre>
+
+If you are using the default font path, need to rename the folder to 'fonts'.
