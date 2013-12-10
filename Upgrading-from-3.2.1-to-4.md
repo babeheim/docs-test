@@ -1,3 +1,7 @@
+### Assets (fonts, stylesheets)
+
+You need to update the Font Awesome assets, but this is not part of this guide.
+
 ### New default syntax
 * `icon-*` -> `fa fa-*` (**NOTE**: `fa` base class is only needed by icons)
 * `icon-fixed-width` -> `fa-fw`
