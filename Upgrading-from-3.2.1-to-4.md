@@ -156,7 +156,7 @@
 
 ### New default font path
 
-V3.2.1
+v3.2.1
 <pre><code>
 @font-face {
   ...
@@ -166,7 +166,7 @@ V3.2.1
 }
 </code></pre>
 
-V4
+v4.0.3
 <pre><code>
 @font-face {
   ...
