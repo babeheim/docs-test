@@ -9,6 +9,7 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 * `icons-ul` -> `fa-ul`
 * `icon-li` -> `fa-li`
 * `icon-spin` -> `fa-spin`
+* `icon-rotate-*` -> `fa-rotate-*`
 
 
 ### New icon names
