@@ -60,3 +60,9 @@ According to your Font Awesome version, please add to your stylesheets:
 ```
 
 (more info on [#2131](https://github.com/FortAwesome/Font-Awesome/pull/2131))
+
+
+### ie7-js
+FontAwesome is not compatible with [ie7-js](https://code.google.com/p/ie7-js/).
+
+(more info on [#2171](https://github.com/FortAwesome/Font-Awesome/issues/2821))
