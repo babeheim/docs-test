@@ -1,3 +1,17 @@
+List below is way depracated.
+In order to manage to display FA V.4 in an HTML Select, you have to use http://silviomoreto.github.io/bootstrap-select/
+
+This plugin allows you to use data-content attribute to display the icons. Example:
+`$x = array(
+'fa-arrows-v' => array('data-content' => "<i class='fa fa-arrows-v'></i>", 'value' => 'fa-arrows-v', 'name' => 'fa-arrows-v'),
+'fa-beer' => array('data-content' => "<i class='fa fa-beer'></i>", 'value' => 'fa-beer', 'name' => 'fa-beer'),
+);`
+
+Populate your select with this array's format.
+
+
+***
+
 ```
 <select>
 	<optgroup label="Web Application Icons">
