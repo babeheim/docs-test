@@ -5,6 +5,8 @@
 4. You are not using plugins that load an older/modified version of Font Awesome (Refers to [#1546]( https://github.com/FortAwesome/Font-Awesome/issues/1546));
 5. You are using valid [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates.
 
+#### Are you/your customers using Adblock?
+If "Remove Social Media Buttons" option is enabled, you will mise some brand icons. Refers to [#1799]
 
 #### Phonegap / Android (icons in Heading tags)
 Icons doesn't show up in tags with `text-rendering: optimizeLegibility`. According to your Font Awesome version, please add to your stylesheets:
