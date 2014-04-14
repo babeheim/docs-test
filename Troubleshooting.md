@@ -72,7 +72,7 @@ FontAwesome is not compatible with [ie7-js](https://code.google.com/p/ie7-js/).
 
 #### Get TTF/OTF fonts working in IE9+
 
-While [some browsers](http://caniuse.com/ttf) support the TTF/OTF formats as webfonts, Internet Explorer generates an error unless the font is set to Installable Embedding mode.
+While [some browsers](http://caniuse.com/ttf) support the TTF/OTF formats as webfonts, Internet Explorer generates an error unless the font is set to Installable Embedding mode. This behavior is reproduced when neither `.woff` nor `.eot` variants are served to IE.
 
 (more info on [#2517](https://github.com/FortAwesome/Font-Awesome/issues/2517))
 
