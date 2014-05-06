@@ -8,6 +8,15 @@
 #### Are you/your customers using Adblock Plus?
 If "Remove Social Media Buttons" option is enabled, you will miss some brand icons. Refers to [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799)
 
+#### Are you using IE8? 
+If you are using IE8, it's necessary to add the html5.js script like:
+```css
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+```
+That work around was used even for Font-Awesome 3.2.1 homepage, but works also for Font-Awesome 4.0.3. Refers to [#2324](https://github.com/FortAwesome/Font-Awesome/issues/2324#issuecomment-42333148)
+
 #### Phonegap / Android (icons in Heading tags)
 Icons doesn't show up in tags with `text-rendering: optimizeLegibility`. According to your Font Awesome version, please add to your stylesheets:
 ```css
