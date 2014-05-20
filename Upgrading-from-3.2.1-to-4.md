@@ -56,7 +56,7 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 * `ellipsis-vertical` -> `ellipsis-v` **(4.0.2)**
 * `envelope-alt` -> `envelope-o`
 * `exclamation-sign` -> `exclamation-circle`
-* `expand-alt` -> `expand-o`
+* `expand-alt` -> `plus-square-o` **(4.0.2)**
 * `expand` -> `caret-square-o-right`
 * `external-link-sign` -> `external-link-square`
 * `eye-close` -> `eye-slash`
