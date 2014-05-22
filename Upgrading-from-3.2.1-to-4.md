@@ -4,7 +4,7 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 
 ### New default syntax
 
-* `icon-*` -> `fa fa-*`, (**NOTE**: `,fa`, base class is only needed by icons)
+* `icon-*` -> `fa fa-*` (**Note**: `fa`, base class is only needed by icons),
 * `icon-fixed-width` -> `fa-fw`,
 * `icon-large` -> `fa-lg`,
 * `icons-ul` -> `fa-ul`,
@@ -21,7 +21,7 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 * `bell-alt` -> `bell`,
 * `bitbucket-sign` -> `bitbucket-square`,
 * `bookmark-empty` -> `bookmark-o`,
-* `building` -> `building-o`, **(4.0.2)**
+* `building` -> `building-o` (**4.0.2**),
 * `calendar-empty` -> `calendar-o`,
 * `check-empty` -> `square-o`,
 * `check-minus` -> `minus-square-o`,
@@ -53,11 +53,11 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 * `download-alt` -> `download`,
 * `edit-sign` -> `pencil-square`,
 * `edit` -> `pencil-square-o`,
-* `ellipsis-horizontal` -> `ellipsis-h`, **(4.0.2)**
-* `ellipsis-vertical` -> `ellipsis-v`, **(4.0.2)**
+* `ellipsis-horizontal` -> `ellipsis-h` (**4.0.2**),
+* `ellipsis-vertical` -> `ellipsis-v` (**4.0.2**),
 * `envelope-alt` -> `envelope-o`,
 * `exclamation-sign` -> `exclamation-circle`,
-* `expand-alt` -> `plus-square-o`, **(4.0.2)**
+* `expand-alt` -> `plus-square-o` (**4.0.2**),
 * `expand` -> `caret-square-o-right`,
 * `external-link-sign` -> `external-link-square`,
 * `eye-close` -> `eye-slash`,
@@ -72,18 +72,18 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 * `folder-open-alt` -> `folder-open-o`,
 * `food` -> `cutlery`,
 * `frown` -> `frown-o`,
-* `fullscreen` -> `arrows-alt`, **(4.0.2)**
+* `fullscreen` -> `arrows-alt` (**4.0.2**),
 * `github-sign` -> `github-square`,
 * `google-plus-sign` -> `google-plus-square`,
-* `group` -> `users`, **(4.0.2)**
+* `group` -> `users` (**4.0.2**),
 * `h-sign` -> `h-square`,
 * `hand-down` -> `hand-o-down`,
 * `hand-left` -> `hand-o-left`,
 * `hand-right` -> `hand-o-right`,
 * `hand-up` -> `hand-o-up`,
-* `hdd` -> `hdd-o`, **(4.0.1)**
+* `hdd` -> `hdd-o` (**4.0.1**),
 * `heart-empty` -> `heart-o`,
-* `hospital` -> `hospital-o`, **(4.0.2)**
+* `hospital` -> `hospital-o` (**4.0.2**),
 * `indent-left` -> `outdent`,
 * `indent-right` -> `indent`,
 * `info-sign` -> `info-circle`,
@@ -98,7 +98,7 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 * `minus-sign` -> `minus-circle`,
 * `mobile-phone` -> `mobile`,
 * `moon` -> `moon-o`,
-* `move` -> `arrows`, **(4.0.2)**
+* `move` -> `arrows` (**4.0.2**),
 * `off` -> `power-off`,
 * `ok-circle` -> `check-circle-o`,
 * `ok-sign` -> `check-circle`,
@@ -117,11 +117,11 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 * `remove-circle` -> `times-circle-o`,
 * `remove-sign` -> `times-circle`,
 * `remove` -> `times`,
-* `reorder` -> `bars`, **(4.0.2)**
-* `resize-full` -> `expand`, **(4.0.2)**
-* `resize-horizontal` -> `arrows-h`, **(4.0.2)**
-* `resize-small` -> `compress`, **(4.0.2)**
-* `resize-vertical` -> `arrows-v`, **(4.0.2)**
+* `reorder` -> `bars` (**4.0.2**),
+* `resize-full` -> `expand` (**4.0.2**),
+* `resize-horizontal` -> `arrows-h` (**4.0.2**),
+* `resize-small` -> `compress` (**4.0.2**),
+* `resize-vertical` -> `arrows-v` (**4.0.2**),
 * `rss-sign` -> `rss-square`,
 * `save` -> `floppy-o`,
 * `screenshot` -> `crosshairs`,
@@ -161,4 +161,6 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 
 ### Other classes changes
 
-* `icon-white` -> `fa-inverse`.
+* `icon-white` -> `fa-inverse`,
+* `icon-large` -> `'fa-lg`,
+* [`icon-2x` to `icon-4x`](http://fortawesome.github.io/Font-Awesome/3.2.1/examples/#larger-icons) replaced with [`fa-2x` to `fa-4x`](http://fortawesome.github.io/Font-Awesome/examples/#larger) and `fa-5x` added.
