@@ -6,7 +6,7 @@
 5. You are using valid [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates.
 
 #### Are you/your customers using Adblock Plus?
-If "Remove Social Media Buttons" option is enabled, you will miss some brand icons. Refers to [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799)
+If "Remove Social Media Buttons" option is enabled, you will miss some brand icons. Refer to [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799) for more information.
 
 #### Are you using IE8? 
 If you are using IE8, it's necessary to add the html5.js script like:
