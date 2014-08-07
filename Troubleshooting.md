@@ -54,6 +54,12 @@ If you are using `font-variant: small-caps;`, according to your Font Awesome ver
 (more info on [#2171](https://github.com/FortAwesome/Font-Awesome/issues/2171))
 
 
+#### Need a blank/empty icon?
+By design, icons have not the same width, so a blank icon is pretty useless. You should use `fa-fw` if you need a placeholder. If you also need to validate a database, allow the blank value.
+
+(more info on [#1606](https://github.com/FortAwesome/Font-Awesome/issues/1606))
+
+
 #### Reveal.js
 According to your Font Awesome version, please add to your stylesheets:
 
