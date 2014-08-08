@@ -12,7 +12,7 @@ If "Remove Social Media Buttons" option is enabled, you will miss some brand ico
 If you are using IE8, it's necessary to add the html5.js script like:
 ```css
 <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 <![endif]-->
 ```
 That work around was used even for Font-Awesome 3.2.1 homepage, but works also for Font-Awesome 4.0.3. Refers to [#2324](https://github.com/FortAwesome/Font-Awesome/issues/2324#issuecomment-42333148)
