@@ -9,7 +9,7 @@
 If "Remove Social Media Buttons" option is enabled, you will miss some brand icons. Refer to [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799) for more information.
 
 #### Internet Explorer compatibility mode
-Please disable it by adding the following to your `head`:
+This feature will cause some random issues with IE, so please disable it by adding to your `head`:
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```
