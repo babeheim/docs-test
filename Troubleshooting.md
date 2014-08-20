@@ -8,6 +8,13 @@
 #### Are you/your customers using Adblock Plus?
 If "Remove Social Media Buttons" option is enabled, you will miss some brand icons. Refer to [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799) for more information.
 
+#### Internet Explorer compatibility mode
+Please disable it by adding the following to your `head`:
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+```
+Refers to [#4144](https://github.com/FortAwesome/Font-Awesome/issues/4144)
+
 #### Are you using IE8? 
 If you are using IE8, it's necessary to add the html5.js script like:
 ```css
