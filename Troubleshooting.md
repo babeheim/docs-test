@@ -92,6 +92,16 @@ FontAwesome is not compatible with [ie7-js](https://code.google.com/p/ie7-js/).
 (more info on [#2171](https://github.com/FortAwesome/Font-Awesome/issues/2821))
 
 
+#### Stack icons inside Wordpress posts
+
+Wordpress automatically adds a `<br>` tag at the end of the line and this will break icon stacks. Please put your html in one line or add to your stylesheet:
+
+```css
+.fa-stack br { display: none }
+```
+(more info on [#4212](https://github.com/FortAwesome/Font-Awesome/issues/4212))
+
+
 #### Get TTF/OTF fonts working in IE9+
 
 While [some browsers](http://caniuse.com/ttf) support the TTF/OTF formats as webfonts, Internet Explorer generates an error unless the font is set to Installable Embedding mode. This behavior is reproduced when neither `.woff` nor `.eot` variants are served to IE.
