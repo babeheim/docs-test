@@ -74,12 +74,14 @@ According to your Font Awesome version, please add to your stylesheets:
 /* FA 4.0.0 and newer */
 .reveal .fa {
   font-family: 'FontAwesome';
+  font-style: normal;
 }
 
 /* FA 3.2.1 and older */
 .reveal [class^="icon-"],
 .reveal [class*=" icon-"]  {
   font-family: 'FontAwesome';
+  font-style: normal;
 }
 ```
 
