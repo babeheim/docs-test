@@ -1,4 +1,4 @@
-#### After upgrading, some icons don't show up
+#### Some icons don't show up
 1. You don't have an old version of Font Awesome installed on your system (it has priority);
 2. Both your `font-awesome.css` file and your `/fonts` (`/font` in 3.2.1) folders are up to date (if you are serving Font Awesome from your own server);
 3. Your css link is up to date (if you are serving Font Awesome from a CDN) (Refers to [#1490](https://github.com/FortAwesome/Font-Awesome/issues/1490));
