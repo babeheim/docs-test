@@ -1,8 +1,10 @@
 #### Some icons don't show up
-1. You don't have an old version of Font Awesome installed on your system (it has priority);
-2. Both your `font-awesome.css` file and your `/fonts` (`/font` in 3.2.1) folders are up to date (if you are serving Font Awesome from your own server);
-3. Your css link is up to date (if you are serving Font Awesome from a CDN) (Refers to [#1490](https://github.com/FortAwesome/Font-Awesome/issues/1490));
-4. You are not using plugins loading older/modified versions of Font Awesome (Refers to [#1546]( https://github.com/FortAwesome/Font-Awesome/issues/1546));
+Check the following:
+
+1. You don't have an old version of Font Awesome installed on your system (it may have priority);
+2. If you are serving Font Awesome from your own server: both your `font-awesome.css` file and your `/fonts` folders are up to date;
+3. If you are serving Font Awesome from a CDN: Your css link is up to date (Refers to [#1490](https://github.com/FortAwesome/Font-Awesome/issues/1490));
+4. You are not using plugins/extensions loading older/modified versions of Font Awesome (Refers to [#1546]( https://github.com/FortAwesome/Font-Awesome/issues/1546));
 5. You are using valid [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates.
 
 #### Are you/your customers using Adblock Plus?
@@ -13,73 +15,32 @@ This feature will cause some random issues with IE, so please disable it by addi
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```
-Refers to [#4144](https://github.com/FortAwesome/Font-Awesome/issues/4144)
 
-#### Are you using IE8? 
+(more info on [#4144](https://github.com/FortAwesome/Font-Awesome/issues/4144))
+
+#### Internet Explorer 8 caveats
 If you are using IE8, it's necessary to add the html5.js script like:
 ```css
 <!--[if lt IE 9]>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 <![endif]-->
 ```
-That work around was used even for Font-Awesome 3.2.1 homepage, but works also for Font-Awesome 4.0.3. Refers to [#2324](https://github.com/FortAwesome/Font-Awesome/issues/2324#issuecomment-42333148)
+Note that you may still have random issues with this browser.
 
-#### Phonegap / Android (icons in Heading tags)
-Icons doesn't show up in tags with `text-rendering: optimizeLegibility`. According to your Font Awesome version, please add to your stylesheets:
-```css
-/* FA 4.0.0 and newer */
-.fa {
-  text-rendering: auto;
-}
-
-/* FA 3.2.1 and older */
-[class^="icon-"],
-[class*=" icon-"]  {
-  text-rendering: auto;
-}
-```
-
-(more info on [#862](https://github.com/FortAwesome/Font-Awesome/pull/862))
-
-
-#### font-variant (Small caps)
-If you are using `font-variant: small-caps;`, according to your Font Awesome version, please add to your stylesheets:
-
-```css
-/* FA 4.0.0 and newer */
-.fa {
-  font-variant: normal;
-}
-
-/* FA 3.2.1 and older */
-[class^="icon-"],
-[class*=" icon-"] {
-  font-variant: normal;
-}
-```
-
-(more info on [#2171](https://github.com/FortAwesome/Font-Awesome/issues/2171))
-
+(more info on [#954](https://github.com/FortAwesome/Font-Awesome/issues/954))
 
 #### Need a blank/empty icon?
 By design, icons have not the same width, so a blank icon is pretty useless. You should use `fa-fw` if you need a placeholder. If you also need to validate a database, allow the blank value.
 
-(more info on [#1606](https://github.com/FortAwesome/Font-Awesome/issues/1606))
+Please take a look at this fiddle: http://jsfiddle.net/tagliala/7z9b557v/
 
+(more info on [#1606](https://github.com/FortAwesome/Font-Awesome/issues/1606))
 
 #### Reveal.js
 According to your Font Awesome version, please add to your stylesheets:
 
 ```css
-/* FA 4.0.0 and newer */
 .reveal .fa {
-  font-family: 'FontAwesome';
-  font-style: normal;
-}
-
-/* FA 3.2.1 and older */
-.reveal [class^="icon-"],
-.reveal [class*=" icon-"]  {
   font-family: 'FontAwesome';
   font-style: normal;
 }
@@ -87,12 +48,10 @@ According to your Font Awesome version, please add to your stylesheets:
 
 (more info on [#2131](https://github.com/FortAwesome/Font-Awesome/pull/2131))
 
-
 ### ie7-js
 FontAwesome is not compatible with [ie7-js](https://code.google.com/p/ie7-js/).
 
 (more info on [#2171](https://github.com/FortAwesome/Font-Awesome/issues/2821))
-
 
 #### Stack icons inside Wordpress posts
 
@@ -102,7 +61,6 @@ Wordpress automatically adds a `<br>` tag at the end of the line and this will b
 .fa-stack br { display: none }
 ```
 (more info on [#4212](https://github.com/FortAwesome/Font-Awesome/issues/4212))
-
 
 #### Get TTF/OTF fonts working in IE9+
 
