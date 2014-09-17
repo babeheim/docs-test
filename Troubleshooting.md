@@ -7,6 +7,9 @@ Check the following:
 4. You are not using plugins/extensions loading older/modified versions of Font Awesome (Refers to [#1546]( https://github.com/FortAwesome/Font-Awesome/issues/1546));
 5. You are using valid [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates.
 
+#### I'm hosting fonts on my server and icons don't show up
+Please check server's [MIME types](https://github.com/EnlightenAgency/Server-Setup-MIME-Types-Headers/blob/master/font-mimetypes.txt)
+
 #### Are you/your customers using Adblock Plus?
 If "Remove Social Media Buttons" option is enabled, you will miss some brand icons. Refer to [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799) for more information.
 
