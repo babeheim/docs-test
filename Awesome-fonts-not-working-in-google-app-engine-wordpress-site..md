@@ -1,0 +1,1 @@
+I recently installed a wordpress site in google app engine. The site works well except for the awesome font icons. When I was testing the website in my computer local server everything worked perfectly well. So I guess the issue is with the google app engine server. Can you assist with this please. 
