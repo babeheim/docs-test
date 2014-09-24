@@ -104,3 +104,16 @@ cd ttembed
 make
 ./ttembed path/to/fontawesome-webfont.ttf path/to/FontAwesome.otf
 ```
+
+#### Fonts not showing up in Phonegap application (iOs)
+In Xcode select the main project file in the sidebar (at the top, blue icon) and for each item under "TARGETS" go to the "Info" tab.
+
+Under there you should find a "Fonts provided by application" key. If it's not there it needs to be added by control-clicking (or "right-clicking") any of the existing keys and selecting "Add row". In the drop down find "Fonts provided by application" and use that. It should have the "Array" type by default, if it does not, add it.
+
+Expand the key by clicking the arrow to the left of it.
+
+Under you should at least see an "Item 0" key. If it doesn't have a value, double-click its "value" field and enter the name of your first font.
+
+For every additional font you can click the "+" button next to any of the items (visible when the item is selected) to add a new row.
+
+You also need to be sure that the font files are in your project's "Resources" folder. I believe support is limited to .otf and .ttf.
