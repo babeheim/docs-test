@@ -106,6 +106,10 @@ make
 ./ttembed path/to/fontawesome-webfont.ttf path/to/FontAwesome.otf
 ```
 
+#### Adobe Flash Builder
+
+https://github.com/FortAwesome/Font-Awesome/issues/1154#issuecomment-41045407
+
 #### Fonts not showing up in Phonegap application (iOs)
 In Xcode select the main project file in the sidebar (at the top, blue icon) and for each item under "TARGETS" go to the "Info" tab.
 
