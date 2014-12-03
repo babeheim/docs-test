@@ -31,7 +31,7 @@ If you are using IE8, it's necessary to add the html5.js script like:
 ```
 Note that you may still have random issues with this browser.
 
-(more info on [#954](https://github.com/FortAwesome/Font-Awesome/issues/954))
+(more info on [#954](https://github.com/FortAwesome/Font-Awesome/issues/954), workaround available at [#954-comment](https://github.com/FortAwesome/Font-Awesome/issues/954#issuecomment-65414146))
 
 #### Need a blank/empty icon?
 By design, icons have not the same width, so a blank icon is pretty useless. You should use `fa-fw` if you need a placeholder. If you also need to validate a database, allow the blank value.
