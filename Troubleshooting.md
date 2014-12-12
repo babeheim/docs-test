@@ -5,7 +5,8 @@ Check the following:
 2. If you are serving Font Awesome from your own server: both your `font-awesome.css` file and your `/fonts` folders are up to date;
 3. If you are serving Font Awesome from a CDN: Your css link is up to date (Refers to [#1490](https://github.com/FortAwesome/Font-Awesome/issues/1490));
 4. You are not using plugins/extensions loading older/modified versions of Font Awesome (Refers to [#1546]( https://github.com/FortAwesome/Font-Awesome/issues/1546));
-5. You are using valid [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates.
+5. You are using valid [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates;
+6. You checked your browser's development console and you are sure that it is loading the proper font files.
 
 #### I'm hosting fonts on my server and icons don't show up
 Please check server's [MIME types](https://github.com/EnlightenAgency/Server-Setup-MIME-Types-Headers/blob/master/font-mimetypes.txt)
