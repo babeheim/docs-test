@@ -8,7 +8,7 @@ So, if you need a new icon in a short while, our suggestion is to customize Font
 
 There are some wonderful online services which allows you to customize Font Awesome, like:
 
-- Fonticons: https://fonticons.com/ (by **@davegandy****, creator of Font Awesome)
+- Fonticons: https://fonticons.com/ (by **@davegandy**, creator of Font Awesome)
 - Fontello: http://fontello.com/
 - IcoMoon: http://icomoon.io/app/#/select
 - Fontastic: http://fontastic.me/
