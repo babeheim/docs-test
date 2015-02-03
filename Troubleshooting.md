@@ -127,3 +127,9 @@ Under you should at least see an "Item 0" key. If it doesn't have a value, doubl
 For every additional font you can click the "+" button next to any of the items (visible when the item is selected) to add a new row.
 
 You also need to be sure that the font files are in your project's "Resources" folder. I believe support is limited to .otf and .ttf.
+
+#### Fonts not showing up in Phonegap application (Android and Windows Phone)
+
+https://github.com/FortAwesome/Font-Awesome/issues/3632#issuecomment-72075216
+
+Try to remove all occurrences of `?v=4.2.0` from the `@font-face` property in the `font-awesome.css` file.
