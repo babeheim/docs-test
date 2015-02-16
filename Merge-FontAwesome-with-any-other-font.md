@@ -1,5 +1,6 @@
 It is possible to merge FontAwesome to any other font, because all characters belongs to `unicode-range="U+0020-F500` - which is different cells neither popular chars at other fonts.
 
+First of all You need to install [FontForge](http://fontforge.github.io/) opensource programm.
 As described on http://fontforge.github.io/scripting.html#Example - use following command `sfddiff.sh FontAwesome.sfd --merge FontAwesome.sfd` to merge two font files together.
 
 ```
