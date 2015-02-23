@@ -36,7 +36,7 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 * `circle-arrow-right` -> `arrow-circle-right`,
 * `circle-arrow-up` -> `arrow-circle-up`,
 * `circle-blank` -> `circle-o`,
-* `cny` -> `rub`,
+* `cny` -> `rmb`,
 * `collapse-alt` -> `minus-square-o`,
 * `collapse-top` -> `caret-square-o-up`,
 * `collapse` -> `caret-square-o-down`,
