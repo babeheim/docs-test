@@ -2,15 +2,15 @@
 Check the following:
 
 1. You don't have an old version of Font Awesome installed on your system (it may have priority);
-2. If you are serving Font Awesome from your own server: both your `font-awesome.css` file and your `/fonts` folders are up to date;
-3. If you are serving Font Awesome from a CDN: Your css link is up to date (Refers to [#1490](https://github.com/FortAwesome/Font-Awesome/issues/1490));
+2. [If you are serving Font Awesome from your own server] Both your `font-awesome.css` file and your `/fonts` folders are up to date;
+3. [If you are serving Font Awesome from a CDN] Your css link is up to date (Refers to [#1490](https://github.com/FortAwesome/Font-Awesome/issues/1490));
 4. You are not using plugins/extensions loading older/modified versions of Font Awesome (Refers to [#1546]( https://github.com/FortAwesome/Font-Awesome/issues/1546));
 5. You are using valid [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates;
-6. You checked your browser's development console and you are sure that it is loading the proper font files;
-7. You checked your browser's extensions and you are sure that there are no misconfigured extensions (noscript, adblockplus, etc.).
+6. Your browser's development console shows that you are loading the proper font files;
+7. Your browser's extensions are not blocking webfonts (noscript, adblockplus, etc.).
 
 #### I'm developing my web app locally (file://) and icons from CDN don't show up
-Please note that Font Awesome uses [protocol relative urls](http://www.paulirish.com/2010/the-protocol-relative-url/), so you should manually add `http:` or `https:` in front of the CDN link
+Please note that Font Awesome uses [protocol relative urls](http://www.paulirish.com/2010/the-protocol-relative-url/), so you should manually add `http:` or `https:` in front of the CDN link.
 
 #### I'm hosting fonts on my server and icons don't show up
 Please check server's [MIME types](https://github.com/EnlightenAgency/Server-Setup-MIME-Types-Headers/blob/master/font-mimetypes.txt)
