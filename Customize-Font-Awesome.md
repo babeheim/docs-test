@@ -8,7 +8,7 @@ There are some wonderful online services which allows you to customize Font Awes
 
 - Fonticons: https://fonticons.com/ (by **@davegandy**, creator of Font Awesome)
 - Fontello: http://fontello.com/
-- IcoMoon: http://icomoon.io/app/#/select
+- IcoMoon: http://icomoon.io/app/#/select ([How To](https://dyscribe.com/blog/create-your-own-custom-iconfont/))
 - Fontastic: http://fontastic.me/
 
 Pick up the one which better fits your needs.
