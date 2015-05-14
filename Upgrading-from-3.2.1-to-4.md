@@ -162,5 +162,5 @@ Of course, you need to update the Font Awesome assets, but this is not part of t
 ### Other classes changes
 
 * `icon-white` -> `fa-inverse`,
-* `icon-large` -> `'fa-lg`,
+* `icon-large` -> `fa-lg`,
 * [`icon-2x` to `icon-4x`](http://fortawesome.github.io/Font-Awesome/3.2.1/examples/#larger-icons) replaced with [`fa-2x` to `fa-4x`](http://fortawesome.github.io/Font-Awesome/examples/#larger) and `fa-5x` added.
