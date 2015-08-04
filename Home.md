@@ -1,9 +1,9 @@
 Welcome to the Font-Awesome wiki!
 
-### Font Awesome v4.3.0
+### Font Awesome v4.4.0
 The iconic font and CSS framework
 
-Font Awesome is a full suite of 519 pictographic icons for easy scalable vector graphics on websites, created and maintained by Dave Gandy. Stay up to date with the latest release and announcements on Twitter: @fontawesome.
+Font Awesome is a full suite of 585 pictographic icons for easy scalable vector graphics on websites, created and maintained by Dave Gandy. Stay up to date with the latest release and announcements on Twitter: @fontawesome.
 
 Get started at [http://fontawesome.io](http://fontawesome.io)!
 ### License
@@ -20,20 +20,21 @@ Full details: http://fontawesome.io/license
 
 ### Changelog
 
-v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap's 14px default
-v3.0.1 - much improved rendering in webkit, various bug fixes
-v3.0.2 - much improved rendering and alignment in IE7
-v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed Sass support
-v3.1.1 GitHub milestones
-v3.2.0 GitHub milestones
-v3.2.1 GitHub milestones
-v4.0.0 GitHub milestones
-v4.0.1 GitHub milestones
-v4.0.2 GitHub milestones
-v4.0.3 GitHub milestones
-v4.1.0 GitHub milestones
-v4.2.0 GitHub milestones
-v4.3.0 GitHub milestones
+v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap's 14px default  
+v3.0.1 - much improved rendering in webkit, various bug fixes  
+v3.0.2 - much improved rendering and alignment in IE7  
+v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed Sass support  
+v3.1.1 GitHub milestones  
+v3.2.0 GitHub milestones  
+v3.2.1 GitHub milestones  
+v4.0.0 GitHub milestones  
+v4.0.1 GitHub milestones  
+v4.0.2 GitHub milestones  
+v4.0.3 GitHub milestones  
+v4.1.0 GitHub milestones  
+v4.2.0 GitHub milestones  
+v4.3.0 GitHub milestones  
+v4.4.0 GitHub milestones  
 
 ### Contributing
 
