@@ -136,3 +136,7 @@ You also need to be sure that the font files are in your project's "Resources" f
 https://github.com/FortAwesome/Font-Awesome/issues/3632#issuecomment-72075216
 
 Try to remove all occurrences of `?v=4.2.0` from the `@font-face` property in the `font-awesome.css` file.
+
+#### .fa-ul problem
+
+If a general css specified `list-style-image` that this image is superimposed on the marker. I propose to add to the definition `.fa-ul` property `list-style-image: none`.
