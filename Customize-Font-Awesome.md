@@ -1,6 +1,6 @@
 Font Awesome receives dozens of new requests every day. Some of them will eventually be included, others will not. [Popularity](https://github.com/FortAwesome/Font-Awesome/issues?q=is%3Aopen+is%3Aissue+label%3A%22new+icon%22+sort%3Acomments-desc) is one of the factors taken into account, but it is not the only one.
 
-So, if you need a new icon in a short while, our suggestion is to customize Font Awesome.
+So, if you need a new icon in a short while, or you need a comprehensive set of icons (e.g., a set of weather icons to build a forecast application) our suggestion is to customize Font Awesome.
 
 ## The Easy Way
 
