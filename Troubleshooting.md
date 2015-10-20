@@ -42,14 +42,14 @@ Note that you may still have random issues with this browser.
 (more info on [#954](https://github.com/FortAwesome/Font-Awesome/issues/954), workaround available at [#954-comment](https://github.com/FortAwesome/Font-Awesome/issues/954#issuecomment-65414146))
 
 #### Need a blank/empty icon?
-By design, icons have not the same width, so a blank icon is pretty useless. You should use `fa-fw` if you need a placeholder. If you also need to validate a database, allow the blank value.
+By design, icons do not have the same width, so a blank icon is pretty useless. You should use `fa-fw` if you need a placeholder. If you perform database validation, allow the blank value.
 
 Please take a look at this fiddle: http://jsfiddle.net/tagliala/7z9b557v/
 
 (more info on [#1606](https://github.com/FortAwesome/Font-Awesome/issues/1606))
 
 #### Reveal.js
-According to your Font Awesome version, please add to your stylesheets:
+According to your Font Awesome version, please add this to your stylesheets:
 
 ```css
 .reveal .fa {
@@ -67,7 +67,7 @@ FontAwesome is not compatible with [ie7-js](https://code.google.com/p/ie7-js/).
 
 #### Stack icons inside Wordpress posts
 
-Wordpress automatically adds a `<br>` tag at the end of the line and this will break icon stacks. Please put your html in one line or add to your stylesheet:
+Wordpress automatically adds a `<br>` tag at the end of the line and this will break icon stacks. Please put your html in one line or add this to your stylesheet:
 
 ```css
 .fa-stack br { display: none }
