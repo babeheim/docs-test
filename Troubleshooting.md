@@ -1,7 +1,7 @@
 #### Some icons don't show up
 Check the following:
 
-1. You don't have an old version of Font Awesome installed on your system (it may have priority);
+1. You don't have an old version of Font Awesome installed on your system and restart your machine (it may have priority);
 2. [If you are serving Font Awesome from your own server] Both your `font-awesome.css` file and your `/fonts` folders are up to date;
 3. [If you are serving Font Awesome from a CDN] Your css link is up to date (Refers to [#1490](https://github.com/FortAwesome/Font-Awesome/issues/1490));
 4. You are not using plugins/extensions loading older/modified versions of Font Awesome (Refers to [#1546]( https://github.com/FortAwesome/Font-Awesome/issues/1546));
