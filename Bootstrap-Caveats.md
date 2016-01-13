@@ -1,4 +1,4 @@
-## Use of `.fa-fw` and `.fa-border` on the same icon
+### Use of `.fa-fw` and `.fa-border` on the same icon
 Please add to your stylesheet
 ```css
 .fa-fw.fa-border {
