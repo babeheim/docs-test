@@ -10,7 +10,7 @@ Check the following:
 7. Your browser's extensions are not blocking webfonts (noscript, adblockplus, etc.).
 
 #### I'm developing my web app locally (file://) and icons from CDN don't show up
-Please note that Font Awesome uses [protocol relative urls](http://www.paulirish.com/2010/the-protocol-relative-url/), so you should manually add `http:` or `https:` in front of the CDN link.
+Please check that you are not using [protocol relative urls](http://www.paulirish.com/2010/the-protocol-relative-url/). In that case, you should add `https:` in front of the CDN link.
 
 #### I'm hosting fonts on my server for my [website](http://blog.hellobox.co) and icons don't show up
 Please check server's [MIME types](https://github.com/EnlightenAgency/Server-Setup-MIME-Types-Headers/blob/master/font-mimetypes.txt)
