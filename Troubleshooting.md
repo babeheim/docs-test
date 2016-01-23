@@ -17,7 +17,7 @@ Please check server's [MIME types](https://github.com/EnlightenAgency/Server-Set
 
 Please check for [CORS](https://github.com/FortAwesome/Font-Awesome/issues/4675#issuecomment-58192275)
 
-For Internet Explorer, please check that you don't serve files with "no-store" option in Cache-control header(https://github.com/FortAwesome/Font-Awesome/issues/6454)
+For *Internet Explorer*, please check that you don't serve files with "no-store" option in Cache-control header [#6454](https://github.com/FortAwesome/Font-Awesome/issues/6454)
  
 #### Are you/your customers using Adblock Plus?
 If "Remove Social Media Buttons" option is enabled, you will miss some brand icons. Refer to [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799) for more information.
