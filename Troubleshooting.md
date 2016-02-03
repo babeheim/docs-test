@@ -23,7 +23,7 @@ For **Internet Explorer**, please check that you don't serve files with `no-stor
 If "Remove Social Media Buttons" option is enabled, you will miss some brand icons. Refer to [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799) for more information.
 
 #### Internet Explorer Compatibility Mode
-This feature will cause some random issues with IE, so please disable it by adding the meta tag as the FIRST tag in your `<head>`:
+This feature will cause some random issues with IE, so please disable it by adding the meta tag as the **FIRST** tag in your `<head>`:
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```
