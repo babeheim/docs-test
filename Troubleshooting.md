@@ -28,7 +28,7 @@ This feature will cause some random issues with IE, so please disable it by addi
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```
 
-(more info on [#4144](https://github.com/FortAwesome/Font-Awesome/issues/4144))
+(more info on [#4144](https://github.com/FortAwesome/Font-Awesome/issues/4144) and [stackoverflow](https://stackoverflow.com/questions/27913012/font-awesome-4-2-0-not-rendering-in-ie11-with-compatibility-mode-turned-on/28490514#28490514))
 
 #### Internet Explorer 8 caveats
 If you are using IE8, it's necessary to add the html5.js script like:
