@@ -1,3 +1,7 @@
+### Index
+* [Use of `.fa-fw` and `.fa-border` on the same icon](#use-of-fa-fw-and-fa-border-on-the-same-icon)
+* [Icon placement when used in input with feedback](#icon-placement-when-used-in-input-with-feedback)
+
 ### Use of `.fa-fw` and `.fa-border` on the same icon
 Please add to your stylesheet:
 ```css
