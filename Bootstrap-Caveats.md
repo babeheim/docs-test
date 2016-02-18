@@ -1,6 +1,6 @@
 ### Index
-* [Use of `.fa-fw` and `.fa-border` on the same icon](#use-of-fa-fw-and-fa-border-on-the-same-icon)
-* [Icon placement when used in input with feedback](#icon-placement-when-used-in-input-with-feedback)
+* [Use of `.fa-fw` and `.fa-border` on the same icon](#use-of-fa-fw-and-fa-border-on-the-same-icon) ([#8309](https://github.com/FortAwesome/Font-Awesome/issues/8309))
+* [Icon placement when used in input with feedback](#icon-placement-when-used-in-input-with-feedback) ([#4313](https://github.com/FortAwesome/Font-Awesome/issues/4313))
 
 ### Use of `.fa-fw` and `.fa-border` on the same icon
 Please add to your stylesheet:
@@ -9,8 +9,6 @@ Please add to your stylesheet:
   width: 1.58571429em;
 }
 ```
-
-Refers to: [#8309](https://github.com/FortAwesome/Font-Awesome/issues/8309)
 
 ### Icon placement when used in input with feedback
 Use this markup:
@@ -24,4 +22,3 @@ Use this markup:
 </div>
 ```
 
-Refers to: [#4313](https://github.com/FortAwesome/Font-Awesome/issues/4313)
