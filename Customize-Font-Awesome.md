@@ -6,7 +6,7 @@ So, if you need a new icon in a short while, or you need a comprehensive set of 
 
 There are some wonderful online services which allows you to customize Font Awesome, like:
 
-- Fort Awesome: https://fortawesome.com/ (by **@davegandy**, creator of Font Awesome)
+- **Fort Awesome**: https://fortawesome.com/ (by **@davegandy**, creator of Font Awesome)
 - Fontello: http://fontello.com/
 - IcoMoon: http://icomoon.io/app/#/select ([How To](https://dyscribe.com/article/create-your-own-custom-iconfont/))
 - Fontastic: http://fontastic.me/
