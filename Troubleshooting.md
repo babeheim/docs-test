@@ -142,3 +142,8 @@ Try to remove all occurrences of `?v=4.2.0` from the `@font-face` property in th
 #### .fa-ul problem
 
 If a general css specified `list-style-image` that this image is superimposed on the marker. I propose to add to the definition `.fa-ul` property `list-style-image: none`.
+
+#### Fonts not rendering properly running Windows 10
+Windows 10 can be configured via its registry to block untrusted fonts.
+
+https://technet.microsoft.com/en-us/library/dn985836%28v=vs.85%29.aspx#Turn_on_and_use_the_Blocking_untrusted_fonts_feature
