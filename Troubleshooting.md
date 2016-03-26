@@ -1,3 +1,21 @@
+#### Index
+
+* [Some icons don't show up](#some-icons-dont-show-up)
+* [I'm developing my web app locally (file://) and icons from CDN don't show up](#im-developing-my-web-app-locally-file-and-icons-from-cdn-dont-show-up)
+* [I'm hosting fonts on my server and icons don't show up](#im-hosting-fonts-on-my-server-and-icons-dont-show-up)
+* [Some brand icons are missing](#some-brand-icons-are-missing)
+* [Internet Explorer Compatibility Mode](#internet-explorer-compatibility-mode)
+* [Internet Explorer 8 caveats](#internet-explorer-8-caveats)
+* [Need a blank/empty icon](#need-a-blankempty-icon)
+* [Reveal.js](#revealjs)
+* [ie7-js](#ie7-js)
+* [Get TTF/OTF fonts working in IE9+](#get-ttfotf-fonts-working-in-ie9)
+* [Adobe Flash Builder](#adobe-flash-builder)
+* [Fonts not showing up in Phonegap application (iOs)](#fonts-not-showing-up-in-phonegap-application-ios)
+* [Fonts not showing up in Phonegap application (Android and Windows Phone)](#fonts-not-showing-up-in-phonegap-application-android-and-windows-phone)
+* [.fa-ul problem](#fa-ul-problem)
+* [Fonts not rendering properly running Windows 10](#fonts-not-rendering-properly-running-windows-10)
+
 #### Some icons don't show up
 Check the following:
 
@@ -45,7 +63,7 @@ Note that you may still have random issues with this browser.
 
 Refs: [#954](https://github.com/FortAwesome/Font-Awesome/issues/954), workaround available at [#954-comment](https://github.com/FortAwesome/Font-Awesome/issues/954#issuecomment-65414146)
 
-#### Need a blank/empty icon?
+#### Need a blank/empty icon
 Icons do not have the same width by design choice, so a blank icon is pretty useless. You should use `fa-fw` if you need a placeholder. If you perform database validation, allow the blank value.
 
 Please take a look at this fiddle: http://jsfiddle.net/tagliala/7z9b557v/
