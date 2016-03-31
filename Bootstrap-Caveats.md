@@ -2,7 +2,7 @@
 * [Use of `.fa-fw` and `.fa-border` on the same icon](#use-of-fa-fw-and-fa-border-on-the-same-icon) ([#8309](https://github.com/FortAwesome/Font-Awesome/issues/8309))
 * [Icon placement when used in input with feedback](#icon-placement-when-used-in-input-with-feedback) ([#4313](https://github.com/FortAwesome/Font-Awesome/issues/4313))
 
-### Use of `.fa-fw` and `.fa-border` on the same icon
+#### Use of `.fa-fw` and `.fa-border` on the same icon
 Please add to your stylesheet:
 ```css
 .fa-fw.fa-border {
@@ -10,7 +10,7 @@ Please add to your stylesheet:
 }
 ```
 
-### Icon placement when used in input with feedback
+#### Icon placement when used in input with feedback
 Use this markup:
 ```html
 <div class="form-group has-feedback">
