@@ -11,6 +11,7 @@
 * [ie7-js](#ie7-js)
 * [Get TTF/OTF fonts working in IE9+](#get-ttfotf-fonts-working-in-ie9)
 * [Adobe Flash Builder](#adobe-flash-builder)
+* [Fonts not showing up in Apple Pages](#fonts-not-showing-up-in-apple-pages-for-mac)
 * [Fonts not showing up in Phonegap application (iOs)](#fonts-not-showing-up-in-phonegap-application-ios)
 * [Fonts not showing up in Phonegap application (Android and Windows Phone)](#fonts-not-showing-up-in-phonegap-application-android-and-windows-phone)
 * [.fa-ul problem](#fa-ul-problem)
@@ -135,6 +136,12 @@ make
 ```
 
 Ref: [#2517](https://github.com/FortAwesome/Font-Awesome/issues/2517)
+
+#### Fonts not showing up in Apple Pages
+
+For some reason, it does show up in the Format --> Font --> Show Fonts menu:
+
+Ref: [#7056](https://github.com/FortAwesome/Font-Awesome/issues/7056)
 
 #### Adobe Flash Builder
 
