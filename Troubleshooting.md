@@ -185,9 +185,9 @@ You also need to be sure that the font files are in your project's "Resources" f
 
 #### Fonts not showing up in Phonegap application (Android and Windows Phone)
 
-https://github.com/FortAwesome/Font-Awesome/issues/3632#issuecomment-72075216
-
 Try to remove all occurrences of `?v=4.2.0` from the `@font-face` property in the `font-awesome.css` file.
+
+Ref: [#3632](https://github.com/FortAwesome/Font-Awesome/issues/3632#issuecomment-71591314)
 
 #### .fa-ul problem
 
