@@ -16,6 +16,7 @@
 * [Fonts not showing up in Phonegap application (Android and Windows Phone)](#fonts-not-showing-up-in-phonegap-application-android-and-windows-phone)
 * [.fa-ul problem](#fa-ul-problem)
 * [Fonts not rendering properly running Windows 10](#fonts-not-rendering-properly-running-windows-10)
+* [bowerjson-not-including-css-file-in-main]
 
 #### Some icons don't show up
 Check the following:
@@ -197,3 +198,8 @@ If a general css specified `list-style-image` that this image is superimposed on
 Windows 10 can be configured via its registry to block untrusted fonts.
 
 Ref: [Turn on and use the Blocking Untrusted Fonts feature](https://technet.microsoft.com/en-us/library/dn985836%28v=vs.85%29.aspx#Turn_on_and_use_the_Blocking_untrusted_fonts_feature)
+
+#### bower.json not including css file in main 
+Sorry, we are following [bower's specs](https://github.com/bower/spec/blob/master/json.md#main)
+
+Ref: [#6227](https://github.com/FortAwesome/Font-Awesome/pull/6227), [twbs/bootstrap#16663](https://github.com/twbs/bootstrap/issues/16663)
