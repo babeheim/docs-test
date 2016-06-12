@@ -17,7 +17,7 @@ Pick up the one which better fits your needs.
 
 *Note that you may need commercial software*
 
-1. [Fork](https://github.com/FortAwesome/Font-Awesome/fork) the repository. You need a properly configured development environment
+1. [Fork](https://github.com/FortAwesome/Font-Awesome/fork) the repository. You need a [properly configured development environment](https://github.com/FortAwesome/Font-Awesome#hacking-on-font-awesome)
 2. Hack with the `.otf` file. Here it is a guide you can follow: [The making of Octicons](https://github.com/blog/1135-the-making-of-octicons)
 3. Share your fork with the Font Awesome community. Check for [open issues](https://github.com/FortAwesome/Font-Awesome/issues) that are related to your fork and share your repository
 
