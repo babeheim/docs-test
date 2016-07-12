@@ -18,6 +18,8 @@
 * [Fonts not rendering properly running Windows 10](#fonts-not-rendering-properly-running-windows-10)
 * [bower.json not including css file in main](#bowerjson-not-including-css-file-in-main)
 
+---
+
 #### Some icons don't show up
 Check the following:
 
@@ -30,8 +32,12 @@ Check the following:
 7. Your browser's extensions are not blocking webfonts (noscript, adblockplus, etc.);
 8. Your operating system is not blocking webfonts (Microsoft Group Policy).
 
+---
+
 #### I'm developing my web app locally (file://) and icons from CDN don't show up
 Please check that you are not using [protocol relative urls](http://www.paulirish.com/2010/the-protocol-relative-url/). In that case, you should add `https:` in front of the CDN link.
+
+---
 
 #### I'm hosting fonts on my server and icons don't show up
 Check the following:
@@ -41,10 +47,14 @@ Check the following:
 3. **For Internet Explorer**: you don't serve files with `no-store` option in Cache-control header (Ref: [#6454](https://github.com/FortAwesome/Font-Awesome/issues/6454));
 4. **For Internet Explorer and HTTPS**: you don't serve files with `no-cache` option in Pragma header.
 
+---
+
 #### Some brand icons are missing
 You (or your customers) are probably using Adblock Plus. If the "Remove Social Media Buttons" option is enabled, you will miss some brand icons.
 
 Ref: [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799) for more information.
+
+---
 
 #### Internet Explorer Compatibility Mode
 This feature will cause some random issues with IE, so please disable it by adding the meta tag as the **FIRST** tag in your `<head>`:
@@ -53,6 +63,8 @@ This feature will cause some random issues with IE, so please disable it by addi
 ```
 
 Refs: [#4144](https://github.com/FortAwesome/Font-Awesome/issues/4144) and [stackoverflow](https://stackoverflow.com/questions/27913012/font-awesome-4-2-0-not-rendering-in-ie11-with-compatibility-mode-turned-on/28490514#28490514)
+
+---
 
 #### Internet Explorer 8 caveats
 If you are using IE8, it's necessary to add the html5.js script like:
@@ -65,12 +77,16 @@ Note that you may still have random issues with this browser.
 
 Refs: [#954](https://github.com/FortAwesome/Font-Awesome/issues/954), workaround available at [#954-comment](https://github.com/FortAwesome/Font-Awesome/issues/954#issuecomment-65414146)
 
+---
+
 #### Need a blank/empty icon
 Icons do not have the same width by design choice, so a blank icon is pretty useless. You should use `fa-fw` if you need a placeholder. If you perform database validation, allow the blank value.
 
 Please take a look at this fiddle: http://jsfiddle.net/tagliala/7z9b557v/
 
 Ref: [#1606](https://github.com/FortAwesome/Font-Awesome/issues/1606)
+
+---
 
 #### Reveal.js
 According to your Font Awesome version, please add this to your stylesheets:
@@ -84,10 +100,14 @@ According to your Font Awesome version, please add this to your stylesheets:
 
 Ref: [#2131](https://github.com/FortAwesome/Font-Awesome/pull/2131)
 
+---
+
 ### ie7-js
 FontAwesome is not compatible with [ie7-js](https://code.google.com/p/ie7-js/).
 
 (more info on [#2171](https://github.com/FortAwesome/Font-Awesome/issues/2821))
+
+---
 
 #### Stack icons inside Wordpress posts
 
@@ -98,7 +118,11 @@ Wordpress automatically adds a `<br>` tag at the end of the line and this will b
 ```
 (more info on [#4212](https://github.com/FortAwesome/Font-Awesome/issues/4212))
 
+---
+
 #### Get TTF/OTF fonts working in IE9+
+
+**Note that this issue should be fixed in 4.6.0**
 
 While [some browsers](http://caniuse.com/ttf) support the TTF/OTF formats as webfonts, Internet Explorer generates an error unless the font is set to Installable Embedding mode. This behavior is reproduced when neither `.woff` nor `.eot` variants are served to IE.
 
@@ -110,7 +134,8 @@ npm install -g ttembed-js
 ttembed-js path/to/fontawesome-webfont.ttf
 ttembed-js path/to/FontAwesome.otf
 ```
-or, within node.js:
+
+##### or, within node.js:
 ```js
 var callback = function(error, oldFsType) {
     if (error) {
@@ -138,11 +163,15 @@ make
 
 Ref: [#2517](https://github.com/FortAwesome/Font-Awesome/issues/2517)
 
+---
+
 #### Fonts not showing up in Apple Pages
 
 For some reason, it does show up in the Format --> Font --> Show Fonts menu:
 
 Ref: [#7056](https://github.com/FortAwesome/Font-Awesome/issues/7056)
+
+---
 
 #### Adobe Flash Builder
 
@@ -171,6 +200,8 @@ Use the link http://fontawesome.io/cheatsheet/ to find the right code for your i
 
 Ref: [#1154](https://github.com/FortAwesome/Font-Awesome/issues/1154#issuecomment-41045407)
 
+---
+
 #### Fonts not showing up in Phonegap application (iOs)
 In Xcode select the main project file in the sidebar (at the top, blue icon) and for each item under "TARGETS" go to the "Info" tab.
 
@@ -184,20 +215,28 @@ For every additional font you can click the "+" button next to any of the items 
 
 You also need to be sure that the font files are in your project's "Resources" folder. I believe support is limited to .otf and .ttf.
 
+---
+
 #### Fonts not showing up in Phonegap application (Android and Windows Phone)
 
 Try to remove all occurrences of `?v=4.x.y` from the `@font-face` property in the `font-awesome.css` file.
 
 Ref: [#3632](https://github.com/FortAwesome/Font-Awesome/issues/3632#issuecomment-71591314)
 
+---
+
 #### .fa-ul problem
 
 If a general css specified `list-style-image` that this image is superimposed on the marker. I propose to add to the definition `.fa-ul` property `list-style-image: none`.
+
+---
 
 #### Fonts not rendering properly running Windows 10
 Windows 10 can be configured via its registry to block untrusted fonts.
 
 Ref: [Turn on and use the Blocking Untrusted Fonts feature](https://technet.microsoft.com/en-us/library/dn985836%28v=vs.85%29.aspx#Turn_on_and_use_the_Blocking_untrusted_fonts_feature)
+
+---
 
 #### bower.json not including css file in main
 Sorry, we are following [bower's specs](https://github.com/bower/spec/blob/master/json.md#main)
