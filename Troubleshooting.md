@@ -42,7 +42,7 @@ Check the following:
 4. **For Internet Explorer and HTTPS**: you don't serve files with `no-cache` option in Pragma header.
 
 #### Some brand icons are missing
-You (or your costumers) are probably using Adblock Plus. If the "Remove Social Media Buttons" option is enabled, you will miss some brand icons.
+You (or your customers) are probably using Adblock Plus. If the "Remove Social Media Buttons" option is enabled, you will miss some brand icons.
 
 Ref: [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799) for more information.
 
