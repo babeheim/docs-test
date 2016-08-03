@@ -28,7 +28,7 @@ Please make sure that:
 3. **If you are serving Font Awesome from a CDN**: Font Awesome's css link is up to date (ref: [#1490](https://github.com/FortAwesome/Font-Awesome/issues/1490));
 4. You are using valid [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates (check the [W3C Markup Validator](https://validator.w3.org/));
 5. You are not using plugins/extensions which are loading older/modified versions of Font Awesome (ref: [#1546]( https://github.com/FortAwesome/Font-Awesome/issues/1546));
-6. You are not using JavaScript libraries which reset/change css properties on the icon tags;
+6. You are not using any JavaScript or CSS libraries that reset/change/override css properties on the icon tags;
 7. Your browser's development console shows that you are loading the proper font files;
 8. Your browser's extensions are not blocking webfonts (noscript, adblockplus, etc.);
 9. Your operating system is not blocking webfonts (Microsoft Group Policy).
