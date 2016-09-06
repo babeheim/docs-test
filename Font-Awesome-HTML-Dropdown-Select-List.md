@@ -1,6 +1,8 @@
 List below is way depracated.
 In order to manage to display FA V.4 in an HTML Select, you have to use http://silviomoreto.github.io/bootstrap-select/
 
+[FontAwesome Icon Picker](http://mjolnic.com/fontawesome-iconpicker/)
+
 This plugin allows you to use data-content attribute to display the icons. Example:
 `$x = array(
 'fa-arrows-v' => array('data-content' => "<i class='fa fa-arrows-v'></i>", 'value' => 'fa-arrows-v', 'name' => 'fa-arrows-v'),
