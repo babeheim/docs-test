@@ -243,3 +243,16 @@ Ref: [Turn on and use the Blocking Untrusted Fonts feature](https://technet.micr
 Sorry, we are following [bower's specs](https://github.com/bower/spec/blob/master/json.md#main)
 
 Ref: [#6227](https://github.com/FortAwesome/Font-Awesome/pull/6227), [twbs/bootstrap#16663](https://github.com/twbs/bootstrap/issues/16663)
+
+Please use overrides if you need `css` and `fonts` files:
+
+```json
+  "overrides": {
+    "font-awesome": {
+      "main": [
+        "./css/font-awesome.css",
+        "./fonts/*"
+      ]
+    }
+  }
+```
