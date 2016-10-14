@@ -166,7 +166,7 @@ Ref: [#2517](https://github.com/FortAwesome/Font-Awesome/issues/2517)
 
 ---
 
-#### Fonts not showing up in Apple Pages
+#### Fonts not showing up in Apple Pages for Mac
 
 For some reason, it does show up in the Format --> Font --> Show Fonts menu:
 
