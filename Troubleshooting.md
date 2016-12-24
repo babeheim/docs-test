@@ -71,7 +71,7 @@ Refs: [#4144](https://github.com/FortAwesome/Font-Awesome/issues/4144) and [stac
 If you are using IE8, it's necessary to add the html5.js script like:
 ```css
 <!--[if lt IE 9]>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <![endif]-->
 ```
 Note that you may still have random issues with this browser.
