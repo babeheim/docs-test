@@ -46,7 +46,8 @@ Check the following:
 1. You properly configured server's [MIME types](https://github.com/EnlightenAgency/Server-Setup-MIME-Types-Headers/blob/master/font-mimetypes.txt) (Ref: [#5559](https://github.com/FortAwesome/Font-Awesome/issues/5559#issuecomment-106956250));
 2. You properly configured [Cross-origin Resource Sharing (CORS)](https://github.com/FortAwesome/Font-Awesome/issues/4675#issuecomment-58192275);
 3. **For Internet Explorer**: you don't serve files with `no-store` option in Cache-control header (Ref: [#6454](https://github.com/FortAwesome/Font-Awesome/issues/6454));
-4. **For Internet Explorer and HTTPS**: you don't serve files with `no-cache` option in Pragma header.
+4. **For Internet Explorer and HTTPS**: you don't serve files with `no-cache` option in Pragma header;
+5. **For Internet Explorer**: try to get rid of the query strings inside the `@font-face` definitions. You need a custom css file (Ref: [#3286](https://github.com/FortAwesome/Font-Awesome/issues/3286)).
 
 ---
 
