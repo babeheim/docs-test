@@ -73,6 +73,8 @@ Refs: [#4144](https://github.com/FortAwesome/Font-Awesome/issues/4144) and [stac
 
 Please try to reset your browser settings (Tools >> Internet Options >> Advanced Tab)
 
+Ref: [#8825]( https://github.com/FortAwesome/Font-Awesome/issues/8825) for more information.
+
 ---
 
 #### Internet Explorer 8 caveats
