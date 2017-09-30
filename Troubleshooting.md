@@ -5,6 +5,7 @@
 * [I'm hosting fonts on my server and icons don't show up](#im-hosting-fonts-on-my-server-and-icons-dont-show-up)
 * [Some brand icons are missing](#some-brand-icons-are-missing)
 * [Internet Explorer Compatibility Mode](#internet-explorer-compatibility-mode)
+* [Internet Explorer 11 doesn't show icons](#internet-explorer-11-doesnt-show-icons)
 * [Internet Explorer 8 caveats](#internet-explorer-8-caveats)
 * [Need a blank/empty icon](#need-a-blankempty-icon)
 * [Reveal.js](#revealjs)
@@ -65,6 +66,12 @@ This feature will cause some random issues with IE, so please disable it by addi
 ```
 
 Refs: [#4144](https://github.com/FortAwesome/Font-Awesome/issues/4144) and [stackoverflow](https://stackoverflow.com/questions/27913012/font-awesome-4-2-0-not-rendering-in-ie11-with-compatibility-mode-turned-on/28490514#28490514)
+
+---
+
+#### Internet Explorer 11 doesn't show icons
+
+Please try to reset your browser settings (Tools >> Internet Options >> Advanced Tab)
 
 ---
 
