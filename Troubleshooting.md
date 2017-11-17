@@ -4,6 +4,7 @@
 * [I'm developing my web app locally (file://) and icons from CDN don't show up](#im-developing-my-web-app-locally-file-and-icons-from-cdn-dont-show-up)
 * [I'm hosting fonts on my server and icons don't show up](#im-hosting-fonts-on-my-server-and-icons-dont-show-up)
 * [Some brand icons are missing](#some-brand-icons-are-missing)
+* [Firefox on iOS caveats](#firefox-on-ios-caveats)
 * [Internet Explorer Compatibility Mode](#internet-explorer-compatibility-mode)
 * [Internet Explorer 11 doesn't show icons](#internet-explorer-11-doesnt-show-icons)
 * [Internet Explorer 8 caveats](#internet-explorer-8-caveats)
@@ -56,6 +57,13 @@ Check the following:
 You (or your customers) are probably using Adblock Plus. If the "Remove Social Media Buttons" option is enabled, you will miss some brand icons.
 
 Ref: [#1799]( https://github.com/FortAwesome/Font-Awesome/issues/1799) for more information.
+
+---
+
+#### Firefox on iOS caveats
+Please check that under "Tracking Protection settings" you did not set the block list to 'Strict' instead of 'Basic'. Apparently, this also blocks web fonts (or certain file extensions?), even if they're hosted at the local website.
+
+Ref: [#11766]( https://github.com/FortAwesome/Font-Awesome/issues/11766) for more information.
 
 ---
 
