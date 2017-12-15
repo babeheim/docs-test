@@ -3,6 +3,7 @@
 * [Some icons don't show up](#some-icons-dont-show-up)
 * [I'm developing my web app locally (file://) and icons from CDN don't show up](#im-developing-my-web-app-locally-file-and-icons-from-cdn-dont-show-up)
 * [I'm hosting fonts on my server and icons don't show up](#im-hosting-fonts-on-my-server-and-icons-dont-show-up)
+* [I'm using custom css classes with Font Awesome 5 and solid icons don't show up](#im-using-custom-css-classes-with-font-awesome-5-and-solid-icons-dont-show-up)
 * [Some brand icons are missing](#some-brand-icons-are-missing)
 * [Firefox on iOS caveats](#firefox-on-ios-caveats)
 * [Internet Explorer Compatibility Mode](#internet-explorer-compatibility-mode)
@@ -50,6 +51,14 @@ Check the following:
 3. **For Internet Explorer**: you don't serve files with `no-store` option in Cache-control header (Ref: [#6454](https://github.com/FortAwesome/Font-Awesome/issues/6454));
 4. **For Internet Explorer and HTTPS**: you don't serve files with `no-cache` option in Pragma header;
 5. **For Internet Explorer**: try to get rid of the query strings inside the `@font-face` definitions. You need a custom css file (Ref: [#3286](https://github.com/FortAwesome/Font-Awesome/issues/3286)).
+
+---
+
+#### I'm using custom css classes with Font Awesome 5 and solid icons don't show up
+
+Please add `font-weight: 900` to your custom css class
+
+Ref: [#11946](https://github.com/FortAwesome/Font-Awesome/issues/11946)
 
 ---
 
