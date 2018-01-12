@@ -4,6 +4,8 @@ So, if you need a new icon in a short while, or you need a comprehensive set of 
 
 ## The Easy Way
 
+⚠️ Only works for CSS
+
 There are some wonderful online services which allows you to customize Font Awesome, like:
 
 - **Fort Awesome**: https://fortawesome.com/ (by **@davegandy**, creator of Font Awesome)
