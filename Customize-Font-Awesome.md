@@ -4,7 +4,7 @@ So, if you need a new icon in a short while, or you need a comprehensive set of 
 
 ## The Easy Way
 
-⚠️ Only works for CSS
+⚠️ Only works for CSS. SVG customization is on the To-Do list
 
 There are some wonderful online services which allows you to customize Font Awesome, like:
 
@@ -16,6 +16,8 @@ There are some wonderful online services which allows you to customize Font Awes
 Pick up the one which better fits your needs.
 
 ## The Hard Way
+
+⚠️ Outdated information. Please wait for the main repository to reflect FA5 changes
 
 *Note that you may need commercial software*
 
