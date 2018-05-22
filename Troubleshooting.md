@@ -27,14 +27,14 @@
 Please make sure that:
 
 1. You don't have an old version of Font Awesome installed on your system (it may have priority) and you didn't restart your machine;
-2. **If you are serving Font Awesome from your own server**: both `font-awesome.css` file and `/fonts` folders are up to date;
-3. **If you are serving Font Awesome from a CDN**: Font Awesome's css link is up to date (ref: [#1490](https://github.com/FortAwesome/Font-Awesome/issues/1490));
+2. **If you are serving Font Awesome from your own server**: `font-awesome.js` (if using SVG) or both `font-awesome.css` and `/fonts` folder (if using CSS) are up to date;
+3. **If you are serving Font Awesome from the CDN**: Font Awesome's link to CDN is up to date (ref: [#1490](https://github.com/FortAwesome/Font-Awesome/issues/1490));
 4. You are using valid [HTML5](http://www.w3.org/TR/html5/introduction.html#a-quick-introduction-to-html) templates (check the [W3C Markup Validator](https://validator.w3.org/));
 5. You are not using plugins/extensions which are loading older/modified versions of Font Awesome (ref: [#1546]( https://github.com/FortAwesome/Font-Awesome/issues/1546));
 6. You are not using any JavaScript or CSS libraries that reset/change/override css properties on the icon tags;
-7. Your browser's development console shows that you are loading the proper font files;
-8. Your browser's extensions are not blocking webfonts (noscript, adblockplus, etc.);
-9. Your operating system is not blocking webfonts (Microsoft Group Policy).
+7. Your browser's extensions are not blocking webfonts or javascript (noscript, adblockplus, etc.);
+8. [CSS Only] Your browser's development console shows that you are loading the proper font files;
+9. [CSS Only] Your operating system is not blocking webfonts (Microsoft Group Policy).
 
 ---
 
