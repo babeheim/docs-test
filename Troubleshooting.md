@@ -51,7 +51,6 @@ Check the following:
 3. **For Internet Explorer**: you don't serve files with `no-store` option in Cache-control header (Ref: [#6454](https://github.com/FortAwesome/Font-Awesome/issues/6454));
 4. **For Internet Explorer and HTTPS**: you don't serve files with `no-cache` option in Pragma header;
 5. **For Internet Explorer**: try to get rid of the query strings inside the `@font-face` definitions. You need a custom css file (Ref: [#3286](https://github.com/FortAwesome/Font-Awesome/issues/3286)).
-6. **For Windows systems**: please make sure that your antivirus is not blocking `fontdrvhost.exe` (Ref: [#8472](https://github.com/FortAwesome/Font-Awesome/issues/8472)).
 
 ---
 
@@ -92,6 +91,10 @@ Refs: [#4144](https://github.com/FortAwesome/Font-Awesome/issues/4144) and [stac
 Please try to reset your browser settings (Tools >> Internet Options >> Advanced Tab)
 
 Ref: [#8825]( https://github.com/FortAwesome/Font-Awesome/issues/8825) for more information.
+
+Please make sure that your antivirus is not blocking `fontdrvhost.exe`
+
+Ref: [#8472](https://github.com/FortAwesome/Font-Awesome/issues/8472) for more information.
 
 ---
 
