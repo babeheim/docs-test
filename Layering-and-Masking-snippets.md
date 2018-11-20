@@ -1,5 +1,3 @@
-# Layering and Masking snippets
-
 You will find on this page a collection of [layering](https://fontawesome.com/how-to-use/on-the-web/styling/layering) and [masking](https://fontawesome.com/how-to-use/on-the-web/styling/masking) snippets.
 
 This snippets required to have Font Awesome 5 SVG & JS framework.
