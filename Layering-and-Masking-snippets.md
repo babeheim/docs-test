@@ -2,13 +2,13 @@ You will find on this page a collection of [layering](https://fontawesome.com/ho
 
 This snippets required to have Font Awesome 5 SVG & JS framework.
 
-Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) by [cherrador](https://github.com/cherrador). ([issue](https://github.com/FortAwesome/Font-Awesome/issues/1446#issuecomment-190011020))
+Here is a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) by [cherrador](https://github.com/cherrador). ([issue](https://github.com/FortAwesome/Font-Awesome/issues/1446#issuecomment-190011020))
 
 ## Adding a new snippet
 
 - Snippet name
 - Minimum Font Awesome version (e.g. 5.0.5 free)
-- "By" user name
+- "by" user name
 - Links (issues / demos)
 - HTML snippet
 - `fa-layers` is combined with `fa-fw` **or** icon has class `fa-fw`
@@ -19,7 +19,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Bed in house (free)**
 - 5.1.0 free
-- By [rent-is](https://github.com/rent-is) and [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
+- by [rent-is](https://github.com/rent-is) and [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/13812)
 - [demo](https://codepen.io/anon/pen/NEXxdV)
 
@@ -34,7 +34,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Bed in house (pro)**
 - 5.1.0 pro
-- By [rent-is](https://github.com/rent-is) and [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
+- by [rent-is](https://github.com/rent-is) and [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/13812)
 
 ```html
@@ -48,7 +48,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Calender with clock**
 - 5.0.0 free
-- By [tagliala](https://github.com/tagliala)
+- by [tagliala](https://github.com/tagliala)
 - [issue 1](https://github.com/FortAwesome/Font-Awesome/issues/8158), [issue 2](https://github.com/FortAwesome/Font-Awesome/issues/14238)
 - [demo](https://codepen.io/anon/pen/WYwyLz)
 
@@ -63,7 +63,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Clock with arrow**
 - 5.0.0 free
-- By [tagliala](https://github.com/tagliala)
+- by [tagliala](https://github.com/tagliala)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/12389)
 - [demo](https://jsfiddle.net/tagliala/vLae8ted/60/)
 
@@ -83,7 +83,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Email with cog**
 - 5.0.0 free
-- By [tagliala](https://github.com/tagliala)
+- by [tagliala](https://github.com/tagliala)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/14135)
 - [demo](http://jsfiddle.net/tagliala/mfopk9qe/7/)
 
@@ -98,7 +98,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **File sharing**
 - 5.0.0 free
-- By [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
+- by [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
 - [demo](https://codepen.io/anon/pen/vQpLZr)
 
 ```html
@@ -109,7 +109,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **File with lightbulb**
 - 5.3.0 free
-- By [tagliala](https://github.com/tagliala)
+- by [tagliala](https://github.com/tagliala)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/13672)
 - [demo](http://jsfiddle.net/tagliala/9tercwpy/28/)
 
@@ -124,7 +124,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Info**
 - 5.0.0 free
-- By [tagliala](https://github.com/tagliala) and [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
+- by [tagliala](https://github.com/tagliala) and [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/3114)
 - [demo 1](https://jsfiddle.net/tagliala/qu83xrwp/16/), [demo 2](https://codepen.io/anon/pen/RqxrLY)
 
@@ -149,7 +149,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Insert Above / Below**
 - 5.0.0 free
-- By [CTiedeman](https://github.com/CTiedeman)
+- by [CTiedeman](https://github.com/CTiedeman)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/13863)
 - [demo](https://codepen.io/ctiedeman/pen/zJNmRL)
 
@@ -187,7 +187,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Marker with plus**
 - 5.0.0 free
-- By [tagliala](https://github.com/tagliala)
+- by [tagliala](https://github.com/tagliala)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/14135)
 - [demo](https://jsfiddle.net/tagliala/mfopk9qe/4/)
 
@@ -202,7 +202,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Phone on square**
 - 5.0.0 free
-- By [marcoroth](https://github.com/marcoroth) and [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
+- by [marcoroth](https://github.com/marcoroth) and [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/11823)
 - [demo](https://codepen.io/anon/pen/NEXxYK)
 
@@ -217,9 +217,34 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ------------
 
+### **Program Start / Stop**
+- 5.0.0 free
+- by [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
+- [issue](https://github.com/FortAwesome/Font-Awesome/issues/13766)
+- [demo](https://codepen.io/anon/pen/vQdgEE)
+
+```html
+<span class="fa-layers fa-fw">
+    <i class="fas fa-minus" data-fa-transform="rotate-45 shrink-5 left-3 down-3"></i>
+    <i class="fas fa-minus" data-fa-transform="rotate-135 shrink-5 right-3 down-3"></i>
+    <i class="fas fa-minus" data-fa-transform="rotate-45 shrink-5 right-3 up-3"></i>
+    <i class="fas fa-minus" data-fa-transform="rotate-135 shrink-5 left-3 up-3"></i>
+    <i class="fas fa-minus" data-fa-transform="rotate-90 shrink-8"></i>
+</span>
+
+<span class="fa-layers fa-fw">
+    <i class="far fa-circle" data-fa-transform=""></i>
+    <i class="fas fa-minus" data-fa-transform="rotate-60 shrink-5 left-2 down-1.65"></i>
+    <i class="fas fa-minus" data-fa-transform="rotate-120 shrink-5 right-2 down-1.65"></i>
+    <i class="fas fa-minus" data-fa-transform="rotate-180 shrink-4 up-2.65"></i>
+</span>
+```
+
+------------
+
 ### **Save icon set**
 - 5.0.13 free
-- By [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
+- by [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/14152)
 - [demo](https://codepen.io/anon/pen/ePjMBo)
 
@@ -251,7 +276,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Search with plus**
 - 5.0.0 free
-- By [tagliala](https://github.com/tagliala)
+- by [tagliala](https://github.com/tagliala)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/12445)
 - [demo](https://jsfiddle.net/vLae8ted/79/)
 
@@ -266,7 +291,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Space shuttle launch**
 - 5.0.0 free
-- By [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
+- by [InsanityMeetsHH](https://github.com/InsanityMeetsHH)
 - [demo](https://codepen.io/anon/pen/XyVXqM)
 
 ```html
@@ -280,7 +305,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Unisex**
 - 5.0.5 free
-- By [tagliala](https://github.com/tagliala)
+- by [tagliala](https://github.com/tagliala)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/14281)
 - [demo](https://jsfiddle.net/tagliala/wks0e6pa/7/)
 
@@ -295,7 +320,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **User with pencil**
 - 5.0.11 free
-- By [tagliala](https://github.com/tagliala)
+- by [tagliala](https://github.com/tagliala)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/1181#issuecomment-350016641)
 - [demo](https://jsfiddle.net/tagliala/8oqL3b5p/)
 
@@ -310,7 +335,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Voicemail**
 - 5.0.9 free
-- By [GabrielBuenoOliveira](https://github.com/GabrielBuenoOliveira)
+- by [GabrielBuenoOliveira](https://github.com/GabrielBuenoOliveira)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/2637)
 - [demo](https://codepen.io/anon/pen/RqxrBq)
 
@@ -325,7 +350,7 @@ Here a collection of [stacked icons](https://jsfiddle.net/cherrador/jomgLb2h/) b
 
 ### **Window search**
 - 5.0.0 free
-- By [tagliala](https://github.com/tagliala)
+- by [tagliala](https://github.com/tagliala)
 - [issue](https://github.com/FortAwesome/Font-Awesome/issues/13595)
 - [demo](https://jsfiddle.net/tagliala/ydq3jrne/51/)
 
