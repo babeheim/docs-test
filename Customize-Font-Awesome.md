@@ -4,8 +4,6 @@ So, if you need a new icon in a short while, or you need a comprehensive set of 
 
 ## The Easy Way
 
-⚠️ Only works for CSS. SVG customization is on the To-Do list
-
 There are some wonderful online services which allows you to customize Font Awesome, like:
 
 - **Fort Awesome**: https://fortawesome.com/ (by **@davegandy**, creator of Font Awesome)
@@ -14,6 +12,43 @@ There are some wonderful online services which allows you to customize Font Awes
 - Fontastic: http://fontastic.me/
 
 Pick up the one which better fits your needs.
+
+### SVG Framework
+
+⚠️ SVG customization is on the To-Do list, meanwhile please use this approach
+
+Prerequisites:
+1. [Webpack](https://webpack.js.org/)
+2. Single-path SVG
+
+*Instructions are different for TypeScript*
+
+JavaScript:
+```js
+import { library, dom } from '@fortawesome/fontawesome-svg-core'
+
+// replace 'M241 241 H 351 V 351 H 241 L 241 241' with your single-path SVG
+var faMyCustomIcon = {
+  prefix: 'fac',
+  iconName: 'my-custom-icon',
+  icon: [512, 512, [], 'e001', 'M241 241 H 351 V 351 H 241 L 241 241']
+}
+
+library.add(
+  faMyCustomIcon
+)
+
+dom.watch()
+```
+
+HTML:
+```html
+<span class="fac fa-my-custom-icon"></span>
+```
+
+Docs: https://fontawesome.com/how-to-use/with-the-api/setup/getting-started
+
+Ref: [#14199](https://github.com/FortAwesome/Font-Awesome/issues/14199)
 
 ## The Hard Way
 
