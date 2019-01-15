@@ -48,7 +48,7 @@ HTML:
 
 Docs: https://fontawesome.com/how-to-use/with-the-api/setup/getting-started
 
-Ref: [#14199](https://github.com/FortAwesome/Font-Awesome/issues/14199)
+Ref: [#13079](https://github.com/FortAwesome/Font-Awesome/issues/13079)
 
 ## The Hard Way
 
