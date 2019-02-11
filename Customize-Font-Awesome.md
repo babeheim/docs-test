@@ -50,6 +50,8 @@ Docs: https://fontawesome.com/how-to-use/with-the-api/setup/getting-started
 
 Ref: [#13079](https://github.com/FortAwesome/Font-Awesome/issues/13079)
 
+Blog Post on this approach - https://medium.com/@nsisodiya/hacking-font-awesome-for-custom-svg-icons-ea762118fa7b
+
 ## The Hard Way
 
 ⚠️ Outdated information. Please wait for the main repository to reflect FA5 changes
