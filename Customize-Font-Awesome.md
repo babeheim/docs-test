@@ -1,6 +1,6 @@
-Font Awesome receives dozens of new requests every day. Some of them will eventually be included, others will not. [Popularity](https://fontawesome.com/community/leaderboard/new) is one of the factors taken into account, but it is not the only one.
+Font Awesome receives dozens of new requests every day. Some of them will eventually be included, others will not. Our [Icon Leaderboard](https://fontawesome.com/community/leaderboard/new#faqs) contains a lot of information on how requests work, please take a look.
 
-So, if you need a new icon in a short while, or you need a comprehensive set of icons (e.g., a set of weather icons to build a forecast application) our suggestion is to customize Font Awesome.
+Said so, if you need a new icon in a short while, or you need a comprehensive set of icons (e.g., a set of weather icons to build a forecast application) our suggestion is to customize Font Awesome.
 
 ## The Easy Way
 
