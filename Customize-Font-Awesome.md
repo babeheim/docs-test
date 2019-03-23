@@ -17,25 +17,53 @@ Pick up the one which better fits your needs.
 
 ⚠️ SVG customization is on the To-Do list, meanwhile please use this approach
 
-Prerequisites:
-1. [Webpack](https://webpack.js.org/)
-2. Single-path SVG
+For the following example, I'm going to use the `fa-list` from Font Awesome 4.
 
-*Instructions are different for TypeScript*
+Prerequisites:
+1. Single-path SVG
+
+#### With local/CDN `fontawesome/all.js`
+
+JavaScript:
+```js
+// replace 1568, 1568 with your SVG viewbox
+// replace 'M256...' with your single-path SVG
+var faListOldStyle = {
+  prefix: 'fac',
+  iconName: 'list-old-style',
+  icon: [1568, 1568, [], 'e001', 'M256 1312v192q0 13-9.5 22.5t-22.5 9.5h-192q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h192q13 0 22.5 9.5t9.5 22.5zm0-384v192q0 13-9.5 22.5t-22.5 9.5h-192q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h192q13 0 22.5 9.5t9.5 22.5zm0-384v192q0 13-9.5 22.5t-22.5 9.5h-192q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h192q13 0 22.5 9.5t9.5 22.5zm1536 768v192q0 13-9.5 22.5t-22.5 9.5h-1344q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1344q13 0 22.5 9.5t9.5 22.5zm-1536-1152v192q0 13-9.5 22.5t-22.5 9.5h-192q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h192q13 0 22.5 9.5t9.5 22.5zm1536 768v192q0 13-9.5 22.5t-22.5 9.5h-1344q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1344q13 0 22.5 9.5t9.5 22.5zm0-384v192q0 13-9.5 22.5t-22.5 9.5h-1344q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1344q13 0 22.5 9.5t9.5 22.5zm0-384v192q0 13-9.5 22.5t-22.5 9.5h-1344q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1344q13 0 22.5 9.5t9.5 22.5z']
+}
+
+FontAwesome.library.add(
+  faListOldStyle
+)
+```
+
+HTML:
+```html
+<span class="fac fa-list-old-style"></span>
+```
+
+Example: https://jsfiddle.net/tagliala/we7gtcvk/1/
+
+#### With [Webpack](https://webpack.js.org/)
+
+Note: *Instructions are different for TypeScript*
 
 JavaScript:
 ```js
 import { library, dom } from '@fortawesome/fontawesome-svg-core'
 
-// replace 'M241 241 H 351 V 351 H 241 L 241 241' with your single-path SVG
-var faMyCustomIcon = {
+// replace 1568, 1568 with your SVG viewbox
+// replace 'M256...' with your single-path SVG
+var faListOldStyle = {
   prefix: 'fac',
-  iconName: 'my-custom-icon',
-  icon: [512, 512, [], 'e001', 'M241 241 H 351 V 351 H 241 L 241 241']
+  iconName: 'list-old-style',
+  icon: [1568, 1568, [], 'e001', 'M256 1312v192q0 13-9.5 22.5t-22.5 9.5h-192q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h192q13 0 22.5 9.5t9.5 22.5zm0-384v192q0 13-9.5 22.5t-22.5 9.5h-192q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h192q13 0 22.5 9.5t9.5 22.5zm0-384v192q0 13-9.5 22.5t-22.5 9.5h-192q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h192q13 0 22.5 9.5t9.5 22.5zm1536 768v192q0 13-9.5 22.5t-22.5 9.5h-1344q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1344q13 0 22.5 9.5t9.5 22.5zm-1536-1152v192q0 13-9.5 22.5t-22.5 9.5h-192q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h192q13 0 22.5 9.5t9.5 22.5zm1536 768v192q0 13-9.5 22.5t-22.5 9.5h-1344q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1344q13 0 22.5 9.5t9.5 22.5zm0-384v192q0 13-9.5 22.5t-22.5 9.5h-1344q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1344q13 0 22.5 9.5t9.5 22.5zm0-384v192q0 13-9.5 22.5t-22.5 9.5h-1344q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1344q13 0 22.5 9.5t9.5 22.5z']
 }
 
 library.add(
-  faMyCustomIcon
+  faListOldStyle
 )
 
 dom.watch()
