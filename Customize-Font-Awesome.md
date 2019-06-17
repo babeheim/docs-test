@@ -2,25 +2,24 @@ Font Awesome receives dozens of new requests every day. Some of them will eventu
 
 Said so, if you need a new icon in a short while, or you need a comprehensive set of icons (e.g., a set of weather icons to build a forecast application) our suggestion is to customize Font Awesome.
 
-## The Easy Way
-
 There are some wonderful online services which allows you to customize Font Awesome, like:
 
-- **Fort Awesome**: https://fortawesome.com/ (by **@davegandy**, creator of Font Awesome)
+## Webfont
+ 
 - Fontello: http://fontello.com/
 - IcoMoon: https://icomoon.io/app/#/select ([How To](https://dyscribe.com/en/webdesign/create-your-own-custom-iconfont.html))
 - Fontastic: http://fontastic.me/
 
 Pick up the one which better fits your needs.
 
-### SVG Framework
+## SVG Framework
 
-⚠️ SVG customization is on the To-Do list, meanwhile please use this approach
-
-For the following example, I'm going to use the `fa-list` from Font Awesome 4.
+⚠️ Official SVG customization is on the To-Do list, meanwhile please use this approach.
 
 Prerequisites:
-1. Single-path SVG
+1. Single-path SVG of the icon you want to add
+
+In the following examples, I'm going to use add to Font Awesome 5 the `fa-list` icon from Font Awesome 4.
 
 #### With local/CDN `fontawesome/all.js`
 
@@ -81,16 +80,6 @@ Docs: https://fontawesome.com/how-to-use/with-the-api/setup/getting-started
 Ref: [#13079](https://github.com/FortAwesome/Font-Awesome/issues/13079)
 
 Blog Post on this approach - https://medium.com/@nsisodiya/hacking-font-awesome-for-custom-svg-icons-ea762118fa7b
-
-## The Hard Way
-
-⚠️ Outdated information. Please wait for the main repository to reflect FA5 changes
-
-*Note that you may need commercial software*
-
-1. [Fork](https://github.com/FortAwesome/Font-Awesome/fork) the repository. You need a [properly configured development environment](https://github.com/FortAwesome/Font-Awesome#hacking-on-font-awesome)
-2. Hack with the `.otf` file. Here it is a guide you can follow: [The making of Octicons](https://github.com/blog/1135-the-making-of-octicons)
-3. Share your fork with the Font Awesome community. Check for [open issues](https://github.com/FortAwesome/Font-Awesome/issues) that are related to your fork and share your repository
 
 # New styles
 
