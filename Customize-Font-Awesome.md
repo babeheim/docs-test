@@ -2,10 +2,10 @@ Font Awesome receives dozens of new requests every day. Some of them will eventu
 
 Said so, if you need a new icon in a short while, or you need a comprehensive set of icons (e.g., a set of weather icons to build a forecast application) our suggestion is to customize Font Awesome.
 
-There are some wonderful online services which allows you to customize Font Awesome, like:
-
 ## Webfont
  
+There are some wonderful online services which allows you to customize Font Awesome, like:
+
 - Fontello: http://fontello.com/
 - IcoMoon: https://icomoon.io/app/#/select ([How To](https://dyscribe.com/en/webdesign/create-your-own-custom-iconfont.html))
 - Fontastic: http://fontastic.me/
