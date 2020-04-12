@@ -19,7 +19,7 @@ Pick up the one which better fits your needs.
 Prerequisites:
 1. Single-path SVG of the icon you want to add
 
-In the following examples, I'm going to use add to Font Awesome 5 the `fa-list` icon from Font Awesome 4.
+In the following examples, I'm going to add to Font Awesome 5 the `fa-list` icon from Font Awesome 4.
 
 #### With local/CDN `fontawesome/all.js`
 
