@@ -1,1 +1,0 @@
-https://github.com/FortAwesome/Font-Awesome.wiki.git
