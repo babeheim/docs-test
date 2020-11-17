@@ -50,7 +50,7 @@ Example: https://jsfiddle.net/tagliala/we7gtcvk/1/
 
 #### With [Webpack](https://webpack.js.org/)
 
-Note: *Instructions are different for TypeScript*
+Note: *Instructions are different for TypeScript* (you can see an example [here](https://codesandbox.io/s/fa-list-old-style-ts-k3zhc))
 
 JavaScript:
 ```js
