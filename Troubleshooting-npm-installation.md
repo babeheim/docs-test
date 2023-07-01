@@ -10,9 +10,9 @@ Font Awesome supports the following package managers:
 
 |Repository|Public|Require active Pro subscription|Font Awesome Pro|Font Awesome Free|
 |:-|:-:|:-:|:-:|:-:|
-|`https://npm.fontawesome.com`| ❌ |✅|✅|✅
-|`https://registry.yarnpkg.com`| ✅ |❌|❌|✅
-|`https:/registry.npmjs.org`| ✅ |❌|❌|✅
+|`https://npm.fontawesome.com` | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+|`https://registry.yarnpkg.com` | :white_check_mark: | :x: | :x: | :white_check_mark:
+|`https:/registry.npmjs.org` | :white_check_mark: | :x: | :x: | :white_check_mark:
 
 **Note:** To use the private npm repo, an active subscription to Font Awesome Pro is required.
 
